@@ -37,7 +37,9 @@ namespace DIP
         int[] f;
         int[] g;
         int w, h;
-
+        private void histogramsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+        }
         private void DIPSample_Load(object sender, EventArgs e)
         {
             this.IsMdiContainer = true;
@@ -132,6 +134,7 @@ namespace DIP
             return myBitmap;
         }
 
+        //圖片變灰
         private void rGBtoGrayToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int []f;
@@ -274,8 +277,14 @@ namespace DIP
             childForm.Show();
         }
 
-
         //直線圖
+        private void equalizationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Histograms_form form2 = new Histograms_form();
+
+            // 顯示 Form2
+            form2.Show();
+        }
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {

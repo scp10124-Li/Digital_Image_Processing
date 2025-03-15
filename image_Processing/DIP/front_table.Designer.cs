@@ -40,6 +40,9 @@
             this.horizontalFlipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.degreeRotationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.degreeRotationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.histogramsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.equalizationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.equalizationToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.oFileDlg = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.statusStrip1.SuspendLayout();
@@ -69,7 +72,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.iPToolStripMenuItem,
-            this.imageToolStripMenuItem});
+            this.imageToolStripMenuItem,
+            this.histogramsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(827, 24);
@@ -88,7 +92,7 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.openToolStripMenuItem.Text = "&Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -104,7 +108,7 @@
             // rGBtoGrayToolStripMenuItem
             // 
             this.rGBtoGrayToolStripMenuItem.Name = "rGBtoGrayToolStripMenuItem";
-            this.rGBtoGrayToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rGBtoGrayToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.rGBtoGrayToolStripMenuItem.Text = "RGBtoGray";
             this.rGBtoGrayToolStripMenuItem.Click += new System.EventHandler(this.rGBtoGrayToolStripMenuItem_Click);
             // 
@@ -147,6 +151,29 @@
             this.degreeRotationToolStripMenuItem1.Text = "clockwise_Rotation";
             this.degreeRotationToolStripMenuItem1.Click += new System.EventHandler(this.degreeRotationToolStripMenuItem1_Click_1);
             // 
+            // histogramsToolStripMenuItem
+            // 
+            this.histogramsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.equalizationToolStripMenuItem,
+            this.equalizationToolStripMenuItem1});
+            this.histogramsToolStripMenuItem.Name = "histogramsToolStripMenuItem";
+            this.histogramsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
+            this.histogramsToolStripMenuItem.Text = "property";
+            this.histogramsToolStripMenuItem.Click += new System.EventHandler(this.histogramsToolStripMenuItem_Click);
+            // 
+            // equalizationToolStripMenuItem
+            // 
+            this.equalizationToolStripMenuItem.Name = "equalizationToolStripMenuItem";
+            this.equalizationToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.equalizationToolStripMenuItem.Text = "Histograms";
+            this.equalizationToolStripMenuItem.Click += new System.EventHandler(this.equalizationToolStripMenuItem_Click);
+            // 
+            // equalizationToolStripMenuItem1
+            // 
+            this.equalizationToolStripMenuItem1.Name = "equalizationToolStripMenuItem1";
+            this.equalizationToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.equalizationToolStripMenuItem1.Text = "Equalization";
+            // 
             // oFileDlg
             // 
             this.oFileDlg.FileName = "openFileDialog1";
@@ -187,5 +214,8 @@
         private System.Windows.Forms.ToolStripMenuItem horizontalFlipToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem degreeRotationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem degreeRotationToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem histogramsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem equalizationToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem equalizationToolStripMenuItem1;
     }
 }
