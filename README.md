@@ -1,7 +1,8 @@
-# Digital_Image_Processing
----
-##image transformation
-#Vertical Filp
-#Horizontal Flip
-#90-degree Rotation
-#270-degree Rotation
+# **Digital_Image_Processing**
+### Using visual studio 2022 to impore code
+
+ - ## **1.image transformation**
+   - ### (i)Vertical Filp
+   - ### (ii)Horizontal Flip
+   - ### (iii)90-degree Rotation
+   - ### (v)270-degree Rotation
