@@ -13,33 +13,44 @@ namespace DIP
 {
     public partial class Histograms_form: Form
     {
+        private double[] _data;
         public Histograms_form()
         {
             InitializeComponent();
         }
 
+        public Histograms_form(int[] f)
+        {
+            _data = Array.ConvertAll(f, x => (double)x);
+            InitializeComponent();
+        }
+
         private void Histograms_form_Load(object sender, EventArgs e)
         {
-            // Create a histogram from a collection of values
-            double[] heights = SampleData.MaleHeights();
-            var hist = ScottPlot.Statistics.Histogram.WithBinCount(10, heights);
+            var hist = ScottPlot.Statistics.Histogram.WithBinSize(1, _data);
 
             // Display the histogram as a bar plot
             var barPlot = formsPlot1.Plot.Add.Bars(hist.Bins, hist.Counts);
 
-            // Size each bar slightly less than the width of a bin
+            // Customize the style of each bar
             foreach (var bar in barPlot.Bars)
             {
-                bar.Size = hist.FirstBinSize * .8;
+                bar.Size = hist.FirstBinSize;
+                bar.LineWidth = 0;
+                bar.FillStyle.AntiAlias = false;
             }
 
             // Customize plot style
             formsPlot1.Plot.Axes.Margins(bottom: 0);
-            formsPlot1.Plot.YLabel("Number of People");
-            formsPlot1.Plot.XLabel("Height (cm)");
-
+            formsPlot1.Plot.YLabel("Number of numPixels");
+            formsPlot1.Plot.XLabel("numLevels");
 
             formsPlot1.Refresh();
+        }
+
+        private void formsPlot1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

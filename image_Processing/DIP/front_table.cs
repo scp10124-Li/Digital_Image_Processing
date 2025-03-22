@@ -32,6 +32,8 @@ namespace DIP
         unsafe static extern void clockwise_Rotation(int* f0, int w, int h, int* g0);
         [DllImport("direction.dll", CallingConvention = CallingConvention.Cdecl)]
         unsafe static extern void Counterclockwise_Rotation(int* f0, int w, int h, int* g0);
+        [DllImport("Histogram_Equalization.dll", CallingConvention = CallingConvention.Cdecl)]
+        unsafe static extern void Equalization(int* f, int w, int h, int* g);
 
         Bitmap NpBitmap;
         int[] f;
@@ -60,9 +62,9 @@ namespace DIP
             {
                 MSForm childForm = new MSForm();
                 childForm.MdiParent = this;
-                childForm.pf1 = stStripLabel;
+                childForm.pf1 = stStripLabel;    //把主視窗的狀態列（StatusStrip）物件傳給子視窗，可以讓子視窗顯示一些狀態訊息。
                 NpBitmap = bmp_read(oFileDlg);
-                childForm.pBitmap = NpBitmap;
+                childForm.pBitmap = NpBitmap;   //將讀取到的圖檔指定給子視窗顯示使用
                 w = NpBitmap.Width;
                 h = NpBitmap.Height;
                 childForm.Show();
@@ -82,9 +84,9 @@ namespace DIP
         private int[] bmp2array(Bitmap myBitmap)
         {
             int[] ImgData = new int[myBitmap.Width * myBitmap.Height];
-            BitmapData byteArray = myBitmap.LockBits(new Rectangle(0, 0, myBitmap.Width, myBitmap.Height),
-                                          ImageLockMode.ReadWrite,
-                                          myBitmap.PixelFormat);
+            BitmapData byteArray = myBitmap.LockBits(new Rectangle(0, 0, myBitmap.Width, myBitmap.Height),  //指定要鎖定的範圍
+                                          ImageLockMode.ReadWrite,  //鎖定圖片記憶體，如果只讀取可以用 ReadOnly
+                                          myBitmap.PixelFormat);    //鎖定圖片記憶體，準備寫入像素資料
             int ByteOfSkip = byteArray.Stride - byteArray.Width * (int)(byteArray.Stride / myBitmap.Width);
             unsafe
             {
@@ -93,9 +95,7 @@ namespace DIP
                 {
                     for (int x = 0; x < byteArray.Width; x++)
                     {
-                        ImgData[x + byteArray.Height * y] = (int)*(imgPtr);
-                        //ImgData[x, y] = (int)*(imgPtr + 1);
-                        //ImgData[x, y] = (int)*(imgPtr + 2);
+                        ImgData[x + byteArray.Width * y] = (int)*(imgPtr);
                         imgPtr += (int)(byteArray.Stride / myBitmap.Width);
                     }
                     imgPtr += ByteOfSkip;
@@ -114,7 +114,7 @@ namespace DIP
                                            ImageLockMode.WriteOnly,
                                            PixelFormat.Format24bppRgb);
             //Padding bytes的長度
-            int ByteOfSkip = byteArray.Stride - myBitmap.Width * 3;
+            int ByteOfSkip = byteArray.Stride - myBitmap.Width * 3; //計算每一行尾端需要跳過的 Padding bytes 數量（因為每行長度通常會被補齊到 4 的倍數）
             unsafe
             {                                   // 指標取出影像資料
                 byte* imgPtr = (byte*)byteArray.Scan0;
@@ -122,9 +122,9 @@ namespace DIP
                 {
                     for (int x = 0; x < Width; x++)
                     {
-                        *imgPtr = (byte)ImgData[x + Height * y];       //B
-                        *(imgPtr + 1) = (byte)ImgData[x + Height * y]; //G 
-                        *(imgPtr + 2) = (byte)ImgData[x + Height * y]; //R  
+                        *imgPtr = (byte)ImgData[x + Width * y];       //B
+                        *(imgPtr + 1) = (byte)ImgData[x + Width * y]; //G 
+                        *(imgPtr + 2) = (byte)ImgData[x + Width * y]; //R  
                         imgPtr += 3;
                     }
                     imgPtr += ByteOfSkip; // 跳過Padding bytes
@@ -280,10 +280,50 @@ namespace DIP
         //直線圖
         private void equalizationToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Histograms_form form2 = new Histograms_form();
-
-            // 顯示 Form2
-            form2.Show();
+            int[] f;
+            foreach (MSForm cF in MdiChildren)
+            {
+                if (cF.Focused)
+                {
+                    f = bmp2array(cF.pBitmap);
+                    unsafe
+                    {
+                        fixed (int* f0 = f)
+                        {
+                            Histograms_form form2 = new Histograms_form(f);
+                            form2.Show();
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+        private void equalizationToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            int[] f;
+            int[] g;
+            foreach (MSForm cF in MdiChildren)
+            {
+                if (cF.Focused)
+                {
+                    f = bmp2array(cF.pBitmap);
+                    g = new int[w * h];
+                    unsafe
+                    {
+                        fixed (int* f0 = f) fixed (int* g0 = g)
+                        {
+                            Equalization(f0, w, h, g0);
+                        }
+                    }
+                    NpBitmap = array2bmp(g);
+                    break;
+                }
+            }
+            MSForm childForm = new MSForm();
+            childForm.MdiParent = this;
+            childForm.pf1 = stStripLabel;
+            childForm.pBitmap = NpBitmap;
+            childForm.Show();
         }
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)

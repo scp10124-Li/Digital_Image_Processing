@@ -3,20 +3,31 @@
   "WorkspaceRootPath": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|c:\\users\\sara\\.ssh\\digital_image_processing\\image_processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|c:\\users\\sara\\.ssh\\digital_image_processing\\image_processing\\dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|c:\\users\\sara\\.ssh\\digital_image_processing\\image_processing\\dip\\msform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\msform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|c:\\users\\sara\\.ssh\\digital_image_processing\\image_processing\\dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\msform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\msform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sara\\Desktop\\B11217059_4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,40 +45,17 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Histograms_form.cs",
               "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs",
               "RelativeDocumentMoniker": "DIP\\Histograms_form.cs",
               "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs",
               "RelativeToolTip": "DIP\\Histograms_form.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA8wCkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAIwBsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T05:05:55.28Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Histograms_form.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs",
-              "RelativeDocumentMoniker": "DIP\\Histograms_form.cs",
-              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs [\u8A2D\u8A08]",
-              "RelativeToolTip": "DIP\\Histograms_form.cs [\u8A2D\u8A08]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T05:03:19.215Z",
-              "EditorCaption": " [\u8A2D\u8A08]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "front_table.cs [\u8A2D\u8A08]",
-              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
-              "RelativeDocumentMoniker": "DIP\\front_table.cs",
-              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs [\u8A2D\u8A08]*",
-              "RelativeToolTip": "DIP\\front_table.cs [\u8A2D\u8A08]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T17:41:17.141Z",
-              "EditorCaption": " [\u8A2D\u8A08]"
             },
             {
               "$type": "Document",
@@ -75,11 +63,97 @@
               "Title": "front_table.cs",
               "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
               "RelativeDocumentMoniker": "DIP\\front_table.cs",
-              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs*",
-              "RelativeToolTip": "DIP\\front_table.cs*",
-              "ViewState": "AgIAAFEAAAAAAAAAAIA4wCkAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
+              "RelativeToolTip": "DIP\\front_table.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAswCwBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T17:42:48.591Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Histograms_form.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs",
+              "RelativeDocumentMoniker": "DIP\\Histograms_form.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DIP\\Histograms_form.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:03:19.215Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "front_table.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
+              "RelativeDocumentMoniker": "DIP\\front_table.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DIP\\front_table.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T17:41:17.141Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MSForm.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\MSForm.cs",
+              "RelativeDocumentMoniker": "DIP\\MSForm.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\MSForm.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DIP\\MSForm.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T05:23:55.56Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MSForm.cs",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\MSForm.cs",
+              "RelativeDocumentMoniker": "DIP\\MSForm.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\MSForm.cs",
+              "RelativeToolTip": "DIP\\MSForm.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:28:10.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "76489601-64c1-41a6-b855-00d4238cf791",
+        "Display": 0,
+        "X": 961,
+        "Y": 75,
+        "Width": 800,
+        "Height": 600,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "B11217059_4.cs",
+              "DocumentMoniker": "C:\\Users\\Sara\\Desktop\\B11217059_4.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\B11217059_4.cs",
+              "ToolTip": "C:\\Users\\Sara\\Desktop\\B11217059_4.cs",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\B11217059_4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T11:35:06.73Z",
               "EditorCaption": ""
             }
           ]
