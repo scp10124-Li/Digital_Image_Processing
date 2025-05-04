@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|c:\\users\\sara\\.ssh\\digital_image_processing\\image_processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "rotation.cs",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\rotation.cs",
+              "RelativeDocumentMoniker": "DIP\\rotation.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\rotation.cs",
+              "RelativeToolTip": "DIP\\rotation.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAMwIUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T14:59:25.751Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "front_table.cs",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
+              "RelativeDocumentMoniker": "DIP\\front_table.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
+              "RelativeToolTip": "DIP\\front_table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T06:23:20.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "front_table.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
+              "RelativeDocumentMoniker": "DIP\\front_table.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DIP\\front_table.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T14:42:45.384Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "rotation.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\rotation.cs",
+              "RelativeDocumentMoniker": "DIP\\rotation.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\rotation.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DIP\\rotation.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T14:57:52.929Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Histograms_form.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs",
+              "RelativeDocumentMoniker": "DIP\\Histograms_form.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DIP\\Histograms_form.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T05:03:19.215Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

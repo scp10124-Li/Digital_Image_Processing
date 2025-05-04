@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+{"ShowEmptyProjects":false,"CustomColumnOrderings":{"name":0,"file-path":1,"file-name":2,"type":3},"ShowValidationErrors":true,"SelectedResourceGroupsByProjectFilePath":{"C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\DIP.csproj":[],"C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip_proc\\dip_proc.vcxproj":[]},"VisibleColumnKeys":["name","neutral-value"]}
+=======
+{"ShowEmptyProjects":false,"CustomColumnOrderings":{"name":0,"file-path":1,"file-name":2,"type":3},"ShowValidationErrors":true,"SelectedResourceGroupsByProjectFilePath":{"C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip_proc\\dip_proc.vcxproj":[],"C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\DIP.csproj":[]},"VisibleColumnKeys":["name","neutral-value"]}
+>>>>>>> a1620e9 (histogram)
