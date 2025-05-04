@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\contract and brightness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\contract and brightness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|c:\\users\\sara\\.ssh\\digital_image_processing\\image_processing\\dip\\contract and brightness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\contract and brightness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|c:\\users\\sara\\.ssh\\digital_image_processing\\image_processing\\dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\front_table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|solutionrelative:dip\\rotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3D2AF17-53FE-4224-BAA1-57153C8C40C6}|DIP\\DIP.csproj|C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\dip\\histograms_form.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "rotation.cs",
               "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\rotation.cs",
               "RelativeDocumentMoniker": "DIP\\rotation.cs",
               "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\rotation.cs",
               "RelativeToolTip": "DIP\\rotation.cs",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAMwIUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwEIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-20T14:59:25.751Z",
               "IsPinned": true,
@@ -48,20 +56,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "front_table.cs",
               "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
               "RelativeDocumentMoniker": "DIP\\front_table.cs",
               "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
               "RelativeToolTip": "DIP\\front_table.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAqwL0BAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-22T06:23:20.635Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "contract and brightness.cs",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\contract and brightness.cs",
+              "RelativeDocumentMoniker": "DIP\\contract and brightness.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\contract and brightness.cs",
+              "RelativeToolTip": "DIP\\contract and brightness.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAWwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T14:42:52.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "contract and brightness.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\contract and brightness.cs",
+              "RelativeDocumentMoniker": "DIP\\contract and brightness.cs",
+              "ToolTip": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\contract and brightness.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "DIP\\contract and brightness.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T14:40:18.569Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "front_table.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\front_table.cs",
               "RelativeDocumentMoniker": "DIP\\front_table.cs",
@@ -73,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "rotation.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\rotation.cs",
               "RelativeDocumentMoniker": "DIP\\rotation.cs",
@@ -85,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Histograms_form.cs [\u8A2D\u8A08]",
               "DocumentMoniker": "C:\\Users\\Sara\\.ssh\\Digital_Image_Processing\\image_Processing\\DIP\\Histograms_form.cs",
               "RelativeDocumentMoniker": "DIP\\Histograms_form.cs",

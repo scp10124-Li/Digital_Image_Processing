@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
+using static SkiaSharp.HarfBuzz.SKShaper;
 
 
 
@@ -413,6 +414,40 @@ namespace DIP
             }
 
             // 建立新子視窗顯示結果影像
+            MSForm childForm = new MSForm();
+            childForm.MdiParent = this;
+            childForm.pf1 = stStripLabel;
+            childForm.pBitmap = NpBitmap;
+            childForm.Show();
+        }
+
+        private void contrastToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int[] f;
+            int[] g;
+            foreach (MSForm cF in MdiChildren)
+            {
+                if (cF.Focused)
+                {
+                    f = bmp2array(cF.pBitmap);
+                    g = new int[w * h];
+                    unsafe
+                    {
+                        fixed (int* f0 = f) fixed (int* g0 = g)
+                        {
+                            using (contract_and_brightness form3 = new contract_and_brightness(f0, w, h, g0))
+                            {
+                                DialogResult result = form3.ShowDialog();
+                                if (result == DialogResult.OK)
+                                {
+                                    NpBitmap = array2bmp(g);
+                                }
+                            }
+                            NpBitmap = array2bmp(g);
+                        }
+                    }
+                }
+            }
             MSForm childForm = new MSForm();
             childForm.MdiParent = this;
             childForm.pf1 = stStripLabel;

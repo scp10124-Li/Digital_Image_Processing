@@ -107,3 +107,4 @@ C:\Users\Sara\.ssh\Digital_Image_Processing\image_Processing\DIP\obj\Debug\DIP.c
 C:\Users\Sara\.ssh\Digital_Image_Processing\image_Processing\DIP\obj\Debug\DIP.exe
 C:\Users\Sara\.ssh\Digital_Image_Processing\image_Processing\DIP\obj\Debug\DIP.pdb
 C:\Users\Sara\.ssh\Digital_Image_Processing\image_Processing\DIP\obj\Debug\DIP.rotation.resources
+C:\Users\Sara\.ssh\Digital_Image_Processing\image_Processing\DIP\obj\Debug\DIP.contract_and_brightness.resources

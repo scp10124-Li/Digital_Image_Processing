@@ -66,9 +66,6 @@ namespace DIP
                 {
                     int val = g[y * width + x];
 
-                    if (val == 0)
-                        val = 255; // 將空白補白色
-
                     val = Clamp(val, 0, 255);
                     Color gray = Color.FromArgb(val, val, val);
                     bmp.SetPixel(x, y, gray);

@@ -46,6 +46,7 @@
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.stStripLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.contrastToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -76,14 +77,15 @@
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
             this.openToolStripMenuItem.Text = "&Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // iPToolStripMenuItem
             // 
             this.iPToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.rGBtoGrayToolStripMenuItem});
+            this.rGBtoGrayToolStripMenuItem,
+            this.contrastToolStripMenuItem});
             this.iPToolStripMenuItem.Name = "iPToolStripMenuItem";
             this.iPToolStripMenuItem.Size = new System.Drawing.Size(29, 20);
             this.iPToolStripMenuItem.Text = "&IP";
@@ -93,7 +95,7 @@
             // 
             this.rGBtoGrayToolStripMenuItem.Name = "rGBtoGrayToolStripMenuItem";
             this.rGBtoGrayToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.rGBtoGrayToolStripMenuItem.Text = "RGBtoGray";
+            this.rGBtoGrayToolStripMenuItem.Text = "negative";
             this.rGBtoGrayToolStripMenuItem.Click += new System.EventHandler(this.rGBtoGrayToolStripMenuItem_Click);
             // 
             // imageToolStripMenuItem
@@ -188,6 +190,13 @@
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
             // 
+            // contrastToolStripMenuItem
+            // 
+            this.contrastToolStripMenuItem.Name = "contrastToolStripMenuItem";
+            this.contrastToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.contrastToolStripMenuItem.Text = "contrast&brightness";
+            this.contrastToolStripMenuItem.Click += new System.EventHandler(this.contrastToolStripMenuItem_Click);
+            // 
             // front_table
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -227,5 +236,6 @@
         private System.Windows.Forms.ToolStripMenuItem rotaToolStripMenuItem;
         private System.Windows.Forms.ToolStripStatusLabel stStripLabel;
         private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripMenuItem contrastToolStripMenuItem;
     }
 }
