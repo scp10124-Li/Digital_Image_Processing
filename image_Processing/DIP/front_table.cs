@@ -11,6 +11,8 @@ using System.IO;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 using static SkiaSharp.HarfBuzz.SKShaper;
+using ScottPlot.WinForms;
+using ScottPlot;
 
 
 
@@ -42,6 +44,33 @@ namespace DIP
         int[] f;
         int[] g;
         int w, h;
+
+        private void ref_his(int[] f)
+        {
+            formsPlot1.Plot.Add.Signal(Generate.Sin());
+            formsPlot1.Plot.Add.Signal(Generate.Cos());
+
+            // remove all plottables
+            double[] data = Array.ConvertAll(f, x => (double)x);
+            var hist = ScottPlot.Statistics.Histogram.WithBinSize(1, data);
+
+            // Display the histogram as a bar plot
+            var barPlot = formsPlot1.Plot.Add.Bars(hist.Bins, hist.Counts);
+
+            // Customize the style of each bar
+            foreach (var bar in barPlot.Bars)
+            {
+                bar.Size = hist.FirstBinSize;
+                bar.LineWidth = 0;
+                bar.FillStyle.AntiAlias = false;
+            }
+            // Customize plot style
+            formsPlot1.Plot.Axes.Margins(bottom: 0);
+            formsPlot1.Plot.YLabel("Number of numPixels");
+            formsPlot1.Plot.XLabel("numLevels");
+            formsPlot1.Refresh();
+            formsPlot1.Plot.Clear();
+        }
         private void histogramsToolStripMenuItem_Click(object sender, EventArgs e)
         {
         }
@@ -71,6 +100,16 @@ namespace DIP
                 w = NpBitmap.Width;
                 h = NpBitmap.Height;
                 childForm.Show();
+            }
+            foreach (MSForm cF in MdiChildren)
+            {
+                if (cF.Focused)
+                {
+                    f = bmp2array(cF.pBitmap);
+                    ref_his(f);
+                    break;
+                }
+
             }
         }
 
@@ -191,10 +230,13 @@ namespace DIP
                             {
                                 toGray(f0, w, h, g0);
                             }
-                        } 
+                        }
+                        ref_his(g);
                         NpBitmap = array2bmp(g);
 				        break;
+
 				    }
+
 			   }
 			MSForm childForm = new MSForm();
 	        childForm.MdiParent = this;
@@ -225,6 +267,7 @@ namespace DIP
                             Vertical_Flip(f0, w, h, g0);
                         }
                     }
+                    ref_his(g);
                     NpBitmap = array2bmp(g);
                     break;
                 }
@@ -252,6 +295,7 @@ namespace DIP
                             Counterclockwise_Rotation(f0, w, h, g0);
                         }
                     }
+                    ref_his(g);
                     NpBitmap = array2bmp(g);
                     break;
                 }
@@ -279,6 +323,7 @@ namespace DIP
                             clockwise_Rotation(f0, w, h, g0);
                         }
                     }
+                    ref_his(g);
                     NpBitmap = array2bmp(g);
                     break;
                 }
@@ -306,6 +351,7 @@ namespace DIP
                             Horizontal_Flip(f0, w, h, g0);
                         }
                     }
+                    ref_his(g);
                     NpBitmap = array2bmp(g);
                     break;
                 }
@@ -335,6 +381,7 @@ namespace DIP
                             form2.Show();
                         }
                     }
+                    ref_his(g);
                     break;
                 }
             }
@@ -358,6 +405,7 @@ namespace DIP
                             Equalization(f0, w, h, g0);
                         }
                     }
+                    ref_his(g);
                     NpBitmap = array2bmp(g);
                     break;
                 }
@@ -408,7 +456,7 @@ namespace DIP
                             }
                         }
                     }
-
+                    ref_his(f);
                     break;
                 }
             }
@@ -446,6 +494,7 @@ namespace DIP
                             NpBitmap = array2bmp(g);
                         }
                     }
+                    ref_his(g);
                 }
             }
             MSForm childForm = new MSForm();
